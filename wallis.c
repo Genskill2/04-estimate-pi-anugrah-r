@@ -3,7 +3,19 @@
 #include <stdio.h>
 #include <math.h>
 
-float wallis_pi(int);
+float wallis_pi(int)
+{
+  float pi = 1.00;
+  int i = 1;
+  while(i<=n)
+  {
+    float num = 4*i*i;
+    float denom = (4*i*i)-1;
+    pi = pi * (num/denom);
+    i = i + 1;
+  }
+  return pi*2;
+}
 
 int main(void) {
   float pi;
