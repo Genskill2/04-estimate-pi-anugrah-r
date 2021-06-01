@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 
+
 float frandom()
 {
   long int q = random();
