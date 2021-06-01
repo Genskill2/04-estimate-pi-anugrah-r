@@ -16,7 +16,6 @@ float wallis_pi(int)
   }
   return pi*2;
 }
-
 int main(void) 
 {
   float pi;
@@ -29,7 +28,6 @@ int main(void)
       abort();
     }
   }
-
   for (int i=500; i<3000; i++) 
   {
     pi = wallis_pi(i);
